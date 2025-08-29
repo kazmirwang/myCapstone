@@ -11,6 +11,8 @@ blockquote {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 pre {
-  text-align: justify;
-  padding-left: 32%;
+  margin: 0 auto;
+  text-align: left;
+  width: fit-content;
+  font-size: small;
 }
