@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Karyogamy: Find Who Grows on You</title>
 </head>
 <body>
-    
+    <h1>Karyogamy</h1>
+    <h2>Find Who Grows on You</h2>
+    <h3>A dating site for molds.</h3>
+    <p><strong>Set up your dating profile:</strong></p>
+    <form method="get">
+        <label for="color">Color</label>
+        <select id="color" name="color">
+            <option>Black</option>
+            <option>Blue</option>
+            <option>Green</option>
+            <option>Yellow</option>
+            <option>Red</option>
+        </select>
+        <p>Genus:</p>
+        <label for="genus1">Cladosporium</label>
+        <input type="radio" id="genus1" name="genus" value="Cladosporium">
+        <label for="genus2">Alternaria</label>
+        <input type="radio" id="genus2" name="genus" value="Alternaria">
+        <label for="genus3">Rhizopus</label>
+        <input type="radio" id="genus3" name="genus" value="Rhizopus">
+        <br><br>
+        <label for="type">Mating type:</label>
+        <input type="text" id="type" name="type" placeholder="MATa, MATα, etc.">
+        <br><br>
+        <label for="fact">Write something about yourself:</label><br>
+        <textarea rows="3" cols="30" id="fact" name="fact" placeholder="I like strawberries"></textarea>
+        <br>
+        <input type="submit">
+    </form>
 </body>
 </html>
