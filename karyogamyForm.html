@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Karyogamy: Find Who Grows on You</title>
 </head>
-<body>
+<body style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/e/ea/Mold%28%D0%BF%D0%BB%D0%B5%D1%81%D0%B5%D0%BD%D1%8C%29.jpg')">
+    <div style="background-color: antiquewhite; display: inline-block; padding: 0px 10px 10px 10px;">
     <h1>Karyogamy</h1>
     <h2>Find Who Grows on You</h2>
     <h3>A dating site for molds.</h3>
     <p><strong>Set up your dating profile:</strong></p>
-    <form method="get">
+    <form method="get" action="karyogamyResult.html">
         <label for="color">Color</label>
         <select id="color" name="color">
             <option>Black</option>
@@ -20,20 +21,21 @@
             <option>Red</option>
         </select>
         <p>Genus:</p>
-        <label for="genus1">Cladosporium</label>
         <input type="radio" id="genus1" name="genus" value="Cladosporium">
-        <label for="genus2">Alternaria</label>
+        <label for="genus1">Cladosporium</label>
         <input type="radio" id="genus2" name="genus" value="Alternaria">
-        <label for="genus3">Rhizopus</label>
+        <label for="genus2">Alternaria</label>
         <input type="radio" id="genus3" name="genus" value="Rhizopus">
+        <label for="genus3">Rhizopus</label>
         <br><br>
         <label for="type">Mating type:</label>
         <input type="text" id="type" name="type" placeholder="MATa, MATα, etc.">
         <br><br>
         <label for="fact">Write something about yourself:</label><br>
-        <textarea rows="3" cols="30" id="fact" name="fact" placeholder="I like strawberries"></textarea>
+        <textarea rows="3" cols="35" id="fact" name="fact" placeholder="I like rotting strawberries..."></textarea>
         <br>
         <input type="submit">
     </form>
+    </div>
 </body>
 </html>
